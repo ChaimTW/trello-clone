@@ -1,0 +1,13 @@
+.checklists-container {
+    display: flex;
+    margin-top: 30px;
+    width: 100%
+}
+
+.checklists-icon {
+    margin-right: 10px
+}
+
+.checklists-content {
+    width: 100%
+}

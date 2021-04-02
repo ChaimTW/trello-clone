@@ -1,0 +1,16 @@
+.item-row {
+    display: flex;
+    margin-bottom: 5px
+}
+
+.item-text {
+    margin-left: 7px
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.check-square {
+    cursor: pointer;
+}

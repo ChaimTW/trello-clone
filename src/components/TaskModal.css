@@ -1,0 +1,124 @@
+.rodal-dialog::-webkit-scrollbar {
+    display: none;
+  }
+
+.task-modal-container {
+    background: #ECECEC;
+    display: flex;
+}
+
+.task-modal-subtitle {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.task-modal-content {
+    flex: 0.78;
+    padding-right: 15px
+}
+
+.task-modal-actions {
+    flex: 0.22;
+    margin-top: 30px
+}
+
+.action {
+    padding: 7px 11px;
+    margin-bottom: 7px;
+    background-color: #e1e1e1;
+    border-radius: 3px;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+}
+
+.action:hover {
+    background-color: #d8d8d8;
+}
+
+.action > p {
+    margin-left: 10px;
+}
+
+.task-modal-description-container {
+    margin-top: 30px;
+    display: flex
+}
+
+.description-content {
+    flex: 1;
+    margin-left: 10px
+}
+
+.task-modal-description {
+    padding: 10px 10px 30px 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.task-modal-description-container input[type="text"] {
+    border: none;
+    background-color: #e1e1e1;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: padding-bottom 0.2s ease-in-out;
+}
+
+.task-modal-description-container input:hover {
+    background-color: #d8d8d8;
+}
+
+.task-modal-description-container input:focus {
+    background-color: white;
+    padding-bottom: 80px;
+    transition: padding-bottom 0.2s ease-in-out;
+}
+
+.task-modal-comments-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.comments-content {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.comment-box input[type="text"] {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 0px 0px #c7c7c7; 
+    box-shadow: 0px 1px 0px 0px #c7c7c7;
+}
+
+.comment-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.task-modal-comments {
+    flex: 0.9
+}
+
+.comment-button {
+    flex: 0.1;
+    margin-left: 6px;
+    border: none;
+    background: #5bac44;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.comment-button:hover {
+    background: #6cbf55
+}
+
+.checklist-title-modal {
+    margin-right: 30px;
+    margin-top: 0px !important
+}
