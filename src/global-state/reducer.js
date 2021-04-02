@@ -162,12 +162,12 @@ const reducer = (state, action) => {
             return newState;
         }
 
-        // case "TOGGLE_CHECKLIST_ITEM": {
-        //     const newState = [...state];
+        case "TOGGLE_CHECKLIST_ITEM": {
+            const newState = [...state];
 
-        //     const {taskId, listId, checklistId, item} = action.itemToToggle;
-        //     console.log(item)
-        // }
+            const {taskId, listId, checklistId, item} = action.itemToToggle;
+            console.log(item)
+        }
 
         default: return state;
     }
