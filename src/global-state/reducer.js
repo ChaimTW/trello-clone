@@ -2,7 +2,20 @@ export const initialState = [
     {
         title: 'TO DO',
         id: 1,
-        tasks: []
+        tasks: [{
+            title: "Read the comment of this card for some info about this Trello clone",
+            id: 1,
+            done: false,
+            comments: [{
+                textContent: "You can add comments to a specific Trello card by typing some text and clicking the green 'Save' button above. Additionally you can add checklists with unique items per card as well as drag and drop the cards between lists. The other features I didn't find the time to develop yet. Nothing is stored, this is purely a client-side project.",
+                commentId: 1,
+                listId: 1,
+                taskId: 1, 
+                date: "May 6th"
+            }],
+            checklists: [],
+            description: null
+        }]
     },
     {
         title: 'DOING',
@@ -17,8 +30,8 @@ export const initialState = [
 ];
 
 let listId = 4;
-let taskId = 1;
-let commentId = 1;
+let taskId = 2;
+let commentId = 2;
 let checklistId = 1;
 let itemId = 1;
 
