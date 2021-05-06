@@ -11,7 +11,7 @@ export const initialState = [
                 commentId: 1,
                 listId: 1,
                 taskId: 1, 
-                date: "May 6th"
+                date: "May 6th: 10:00 AM"
             }],
             checklists: [],
             description: null
