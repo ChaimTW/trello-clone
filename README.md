@@ -2,7 +2,7 @@
 > Study clone project of Trello
 
 ## Demo
-Clean document: https://trelloclonereact.netlify.app
+https://trelloclonereact.netlify.app
 
 ## Available Scripts
 
