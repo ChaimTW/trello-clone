@@ -4,6 +4,13 @@
 ## Demo
 https://trelloclonereact.netlify.app
 
+## Features
+* Create lists
+* Create cards
+* Drag and drop cards between lists
+* Add comments to cards (with timestamp)
+* Add checklists to cards (with checklist items)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -19,6 +26,7 @@ You will also see any lint errors in the console.
 ## Libraries used
 * ReactJS
 * Context API
+* React-Beautiful-DnD
 
 ## Hosting
 * **Frontend:** Netlify
